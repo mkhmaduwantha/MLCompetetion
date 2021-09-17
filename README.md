@@ -1,3 +1,3 @@
 # MLCompetetion
 
-1. code path - Code/PumpItUp.ipynb 
+link- https://github.com/mkhmaduwantha/MLCompetetion/blob/dc557ba54461f7e08dccbf1eac5a60810e426609/README.md
