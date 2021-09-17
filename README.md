@@ -8,7 +8,7 @@ Competetion - https://www.drivendata.org/competitions/7/pump-it-up-data-mining-t
 * Random Forest
 * XGBoost
 
-## Features in the Dataset and applied feature Engineering technique
+## PreProcessing and feature Engineering technique
 
 ### 1. Drop Similar Columns
 #### This data set contains lot of features that has similar information 
@@ -76,15 +76,15 @@ Competetion - https://www.drivendata.org/competitions/7/pump-it-up-data-mining-t
 ## 3. Other techniques
 * `population` - Population around the well
 * `longitude` - GPS coordinate
- has null values, replace non values using the mean of non-zero values
+  after plotting the chart with `langitude` and  `lattitude`, idenitified (0,0) coordintaes which are missing values. 
+ has null values, replace non values using the mean of non-zero values,
 ---
 * `gps_height` - Altitude of the well
  contain 30%, 0 values, but we can consider those as sea level values
 ---
 * `funder` - Who funded the well
 * `installer` - Organization that installed the well
-for the `installer`, there are lot of spelling mistakes, So correct it beofre hand.
-both features has lot of unique values, Se choose only the most common 20 unique values and put other values into 'Others' category.
+both features has lot of unique values and also lot of mispellings, After correcting the misspellings, choose only the most common 20 unique values and put other values into 'Others' category.
 ---
 * `construction_year` - Year the waterpoint was constructed
 create a new column, by categorising years into decades
