@@ -1,6 +1,11 @@
 # MLCompetetion - Pump It Up
 
 Repo - https://github.com/mkhmaduwantha/MLCompetetion.git
+Competetion - https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
+
+## Models Used
+* Random Forest
+* XGBoost
 
 ## Features in the Dataset and applied feature Engineering technique
 
@@ -84,6 +89,5 @@ both features has lot of unique values, Se choose only the most common 20 unique
 create a new column, by categorising years into decades
 ---
 
-## Models Used
-* Random Forest
-* XGBoost
+## Ranking
+![Capture](https://github.com/mkhmaduwantha/MLCompetetion/blob/5f03bc7cb36880595cf4fd53561a49ffab75f99b/Code/Rank.png)
